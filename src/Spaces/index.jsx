@@ -1,6 +1,6 @@
 import { useQuery } from '@apollo/client';
 import Button from '@mui/material/Button';
-import React, { Suspense, useState } from 'react';
+import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { GET_BUILDINGS, GET_MEETINGS, GET_MEETING_ROOMS } from '../ApolloClient/queries';
 import { convertStringToDate, convertStrToTime } from '../util';

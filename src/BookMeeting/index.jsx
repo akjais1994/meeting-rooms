@@ -53,7 +53,7 @@ const BookMeeting = () => {
   const handleEndTimeValidation = useCallback(() => {
     console.log("🚀 ~ file: index.jsx ~ line 56 ~ handleEndTimeValidation ~ e", endTime)
     if(startTime && endTime && endTime.isBefore(startTime)) {
-      setEndTimeError(`End time can\'t be before end time`);
+      setEndTimeError(`End time can't be before end time`);
     }
   }, [endTime, startTime])
 
