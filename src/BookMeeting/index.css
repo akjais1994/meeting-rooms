@@ -1,0 +1,19 @@
+.bookingSection {
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.fieldRow {
+  padding: 20px 0;
+}
+
+.bookingFooter {
+  position: relative;
+}
+
+.nextbtn {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+}

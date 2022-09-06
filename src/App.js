@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Spaces from './Spaces';
+import { ApolloProvider } from '@apollo/client';
+import { client } from './ApolloClient/client';
+import BookMeeting from './BookMeeting';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import AvailableRooms from './AvailableRooms';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ApolloProvider client={client}>
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
+          <Routes>
+            <Route path="/" element={<Spaces />} />
+            <Route path="/book-meeting" element={<BookMeeting />} />
+            <Route path="/available-rooms" element={<AvailableRooms />} />
+          </Routes>
+        </LocalizationProvider>
+      </ApolloProvider>
     </div>
   );
 }

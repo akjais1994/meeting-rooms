@@ -1,0 +1,16 @@
+.cardContainer {
+  padding: 20px;
+  margin: 20px;
+  background-color: #e9ecef;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.availableRoomContainer {
+  margin: 20px;
+}
