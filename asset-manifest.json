@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/meeting-rooms/static/css/main.a0bdeca8.css",
+    "main.js": "/meeting-rooms/static/js/main.2cddc934.js",
+    "static/js/787.545d26bb.chunk.js": "/meeting-rooms/static/js/787.545d26bb.chunk.js",
+    "index.html": "/meeting-rooms/index.html",
+    "main.a0bdeca8.css.map": "/meeting-rooms/static/css/main.a0bdeca8.css.map",
+    "main.2cddc934.js.map": "/meeting-rooms/static/js/main.2cddc934.js.map",
+    "787.545d26bb.chunk.js.map": "/meeting-rooms/static/js/787.545d26bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0bdeca8.css",
+    "static/js/main.2cddc934.js"
+  ]
+}
