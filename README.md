@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with Meeting Room App
+
+Intuit Craft Demo application - Meeting Room Booking App is a simple application which displays available rooms and allows the user to book available rooms.
+
+This project is consuming the graphql API for interaction with the data points. Please refer to the below link for graphql sandbox.
+http://smart-meeting.herokuapp.com/graphql
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
