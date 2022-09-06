@@ -2,7 +2,7 @@
   "name": "meeting-rooms",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://akjais1994.github.io/meeting-rooms",
+  "homepage": "http://akjais1994.github.io/meeting-rooms",
   "dependencies": {
     "@apollo/client": "^3.6.9",
     "@emotion/react": "^11.10.4",
